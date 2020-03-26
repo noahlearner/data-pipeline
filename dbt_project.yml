@@ -35,4 +35,4 @@ models:
       materialized: table
       vars:
         client: 'CAM_Solar'
-        cleanClient: 'CAM Solar'
+        cleanClient: 'CAM Solar1'
