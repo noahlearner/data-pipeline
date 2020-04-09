@@ -46,7 +46,6 @@
   * Mailchimp_in
   * Management_in
   * Microsoft_in
-  * Microsoft_in
   * Reporting_Client_List_in
 
 #### BigQuery Gotchas
