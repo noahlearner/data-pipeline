@@ -84,17 +84,17 @@
 ### Set Up dbt Account + Project [courtesy of dbt](https://docs.getdbt.com/tutorial/create-a-project-dbt-cloud/)
 1. Create a dbt Cloud account [here](https://cloud.getdbt.com/signup/). If your organization already has a dbt Cloud account, ask an admin to add you as a Developer.
 2. Click the hamburger menu, then Account Settings, then Projects.
-4. Click New Project
+4. Click "New Project".
 5. CLick "Begin" on next screen.
-6. Name the project "pipeline", and click Continue.
-7. Click BigQuery on Next Screen
-8. Click "Upload a Service Account JSON Gile and paste in the credentials file from the [BigQuery Credentials for dbt instructions above](https://github.com/noahlearner/data-pipeline/blob/master/README.md#bigquery-credentials-for-dbt).
+6. Name the project "pipeline", and click "Continue".
+7. Click "BigQuery" on Next Screen.
+8. Click "Upload a Service Account JSON file" and paste in the credentials file from the [BigQuery Credentials for dbt instructions above](https://github.com/noahlearner/data-pipeline/blob/master/README.md#bigquery-credentials-for-dbt).
 9. scroll down to the "Development Credentials and rename the DATASET to match what was entered in line 37 of the [Github Setup Section](https://github.com/noahlearner/data-pipeline/blob/master/README.md#github-setup).
-10. Scroll Up and Click "Test"
+10. Scroll Up and Click "Test".
 11. After you see "Connection Test Succeeded" Click "Continue".
 12. On Next Screen Click "Github" Button.
 13. You'll then be prompted to log into Github or you'll see your repos listed below in a table.
-14. Click on the Repo you built in the [Github Setup](https://github.com/noahlearner/data-pipeline/blob/master/README.md#github-setup)
+14. Click on the Repo you built in the [Github Setup](https://github.com/noahlearner/data-pipeline/blob/master/README.md#github-setup).
 15. After the success message, Click the "Continue" buttonin top right of screen.
 16. On next screen Click "Start Developing".
 
@@ -105,8 +105,3 @@
 
 ### Scheduling dbt Runs
 [dbt's docuumentation Here]()
-
-
-
-
- 
