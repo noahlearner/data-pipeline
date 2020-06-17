@@ -24,6 +24,15 @@
 
 **** THis is a work in progress and more on the sheets setup to come 
 
+### Google Cloud Account 
+1. Sign Up for a [Google Cloud Free Trial Account](https://console.cloud.google.com/freetrial)
+2. Enable the BigQuery API [here](https://console.cloud.google.com/apis/library/bigquery.googleapis.com?q=bigquery)
+
+### Create your BigQuery Project [courtesy of dbt's documentation](https://docs.getdbt.com/tutorial/setting-up)
+1. Go to the [BigQuery Console](https://console.cloud.google.com/bigquery) — if you don't have a Google Cloud Platform account you will be asked to create one.
+2. Create a new project for this tutorial — if you've just created a BigQuery account, you'll be prompted to create a new project straight away. If you already have an existing you can select the project drop down in the header bar, and create a new project from there.
+
+
 ### BigQuery Setup
 1. Buid new Dataset in BigQuery to match the client name with multiple words separated by underscores.
 2. Build external tables for each of the marketing channels with following process:
@@ -62,6 +71,12 @@
    * Line 37 Change CAM_Solar to to match the Dataset name found in BigQuery
    * Line 38 Change from CAM Solar to match the real Client Name
 4. Use this repo as the source for new dbt Project.
+
+### Set Up dbt Account (Coming Soon)
+
+### Set Up DBT Project (Coming Soon)
+
+
 
 
  
