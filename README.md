@@ -85,11 +85,19 @@
 1. Create a dbt Cloud account [here](https://cloud.getdbt.com/signup/). If your organization already has a dbt Cloud account, ask an admin to add you as a Developer.
 2. If you created a new account, a new project should automatically be created. If you were added to an existing account:
 3. Click the hamburger menu, then Account Settings, then Projects.
-4. Name your project "dbt Tutorial", and click Save. There's no need to fill in the other details.
-5. Click the hamburger menu, and then Home.
-6. Switch the project in the header bar to your new "dbt Tutorial" project.
-7.Complete the project setup flow:
-8. Connect to BigQuery using the credentials file from the [BigQuery Credentials for dbt instructions above](https://github.com/noahlearner/data-pipeline/blob/master/README.md#bigquery-credentials-for-dbt).
+4. Click New Project
+5. CLick "Begin" on next screen.
+6. Name the project "pipeline", and click Continue.
+7. Click BigQuery on Next Screen
+8. Click "Upload a Service Account JSON Gile and paste in the credentials file from the [BigQuery Credentials for dbt instructions above](https://github.com/noahlearner/data-pipeline/blob/master/README.md#bigquery-credentials-for-dbt).
+9. scroll down to the "Development Credentials and rename the DATASET to match what was entered in line 37 of the [Github Setup Section](https://github.com/noahlearner/data-pipeline/blob/master/README.md#github-setup).
+10. Scroll Up and Click "Test"
+11. After you see "Connection Test Succeeded" Click "Continue".
+12. On Next Screen Click "Github" Button.
+13. You'll then be prompted to log into Github or you'll see your repos listed below in a table.
+14. Click on the Repo you built in the [Github Setup](https://github.com/noahlearner/data-pipeline/blob/master/README.md#github-setup)
+15. After the success message, Click the "Continue" buttonin top right of screen.
+16. On next screen Click "Start Developing".
 
 
 ### Set Up DBT Project (Coming Soon)
