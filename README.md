@@ -89,7 +89,7 @@
 5. Click the hamburger menu, and then Home.
 6. Switch the project in the header bar to your new "dbt Tutorial" project.
 7.Complete the project setup flow:
-8. Connect to BigQuery using the credentials file from the Setting Up instructions.
+8. Connect to BigQuery using the credentials file from the [BigQuery Credentials for dbt instructions above](https://github.com/noahlearner/data-pipeline/blob/master/README.md#bigquery-credentials-for-dbt).
 
 
 ### Set Up DBT Project (Coming Soon)
