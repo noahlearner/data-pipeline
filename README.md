@@ -33,13 +33,13 @@
 2. Create a new project for this tutorial — if you've just created a BigQuery account, you'll be prompted to create a new project straight away. If you already have an existing you can select the project drop down in the header bar, and create a new project from there.
 
 ### BigQuery Credentials for dbt
-1. Go to the BigQuery credential wizard. Ensure that your new project is selected in the header bar.
+1. Go to the [BigQuery credential wizard](https://console.cloud.google.com/apis/credentials/wizard). Ensure that your new project is selected in the header bar.
 2. Generate credentials with the following options:
- * Which API are you using? BigQuery API
- * Are you planning to use this API with App Engine or Compute Engine? No
- * Service account name: dbt-user
- * Role: BigQuery User
- * Key type: JSON
+ * Which API are you using? **BigQuery API**
+ * Are you planning to use this API with App Engine or Compute Engine? **No**
+ * Service account name: **dbt-user**
+ * Role: **BigQuery User**
+ * Key type: **JSON**
  * Download the JSON file and save it in an easy-to-remember spot, with a clear filename (e.g. dbt-user-creds.json)
 
 ### BigQuery Setup
