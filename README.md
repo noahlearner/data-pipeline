@@ -32,6 +32,15 @@
 1. Go to the [BigQuery Console](https://console.cloud.google.com/bigquery) — if you don't have a Google Cloud Platform account you will be asked to create one.
 2. Create a new project for this tutorial — if you've just created a BigQuery account, you'll be prompted to create a new project straight away. If you already have an existing you can select the project drop down in the header bar, and create a new project from there.
 
+### BigQuery Credentials for dbt
+1. Go to the BigQuery credential wizard. Ensure that your new project is selected in the header bar.
+2. Generate credentials with the following options:
+ * Which API are you using? BigQuery API
+ * Are you planning to use this API with App Engine or Compute Engine? No
+ * Service account name: dbt-user
+ * Role: BigQuery User
+ * Key type: JSON
+ * Download the JSON file and save it in an easy-to-remember spot, with a clear filename (e.g. dbt-user-creds.json)
 
 ### BigQuery Setup
 1. Buid new Dataset in BigQuery to match the client name with multiple words separated by underscores.
@@ -72,7 +81,16 @@
    * Line 38 Change from CAM Solar to match the real Client Name
 4. Use this repo as the source for new dbt Project.
 
-### Set Up dbt Account (Coming Soon)
+### Set Up dbt Account [courtesy of dbt](https://docs.getdbt.com/tutorial/create-a-project-dbt-cloud/)
+1. Create a dbt Cloud account [here](https://cloud.getdbt.com/signup/). If your organization already has a dbt Cloud account, ask an admin to add you as a Developer.
+2. If you created a new account, a new project should automatically be created. If you were added to an existing account:
+3. Click the hamburger menu, then Account Settings, then Projects.
+4. Name your project "dbt Tutorial", and click Save. There's no need to fill in the other details.
+5. Click the hamburger menu, and then Home.
+6. Switch the project in the header bar to your new "dbt Tutorial" project.
+7.Complete the project setup flow:
+8. Connect to BigQuery using the credentials file from the Setting Up instructions.
+
 
 ### Set Up DBT Project (Coming Soon)
 
