@@ -81,10 +81,9 @@
    * Line 38 Change from CAM Solar to match the real Client Name
 4. Use this repo as the source for new dbt Project.
 
-### Set Up dbt Account [courtesy of dbt](https://docs.getdbt.com/tutorial/create-a-project-dbt-cloud/)
+### Set Up dbt Account + Project [courtesy of dbt](https://docs.getdbt.com/tutorial/create-a-project-dbt-cloud/)
 1. Create a dbt Cloud account [here](https://cloud.getdbt.com/signup/). If your organization already has a dbt Cloud account, ask an admin to add you as a Developer.
-2. If you created a new account, a new project should automatically be created. If you were added to an existing account:
-3. Click the hamburger menu, then Account Settings, then Projects.
+2. Click the hamburger menu, then Account Settings, then Projects.
 4. Click New Project
 5. CLick "Begin" on next screen.
 6. Name the project "pipeline", and click Continue.
@@ -99,8 +98,13 @@
 15. After the success message, Click the "Continue" buttonin top right of screen.
 16. On next screen Click "Start Developing".
 
+### Learn all about dbt Projects [here](https://docs.getdbt.com/docs/building-a-dbt-project/projects)
 
-### Set Up DBT Project (Coming Soon)
+### Running dbt
+[Follow dbt's documentation here](https://docs.getdbt.com/docs/running-a-dbt-project/using-the-dbt-ide#compiling-and-running-sql) 
+
+### Scheduling dbt Runs
+[dbt's docuumentation Here]()
 
 
 
